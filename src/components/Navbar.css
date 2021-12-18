@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #160040;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-container h2 {
+    font-size: 2rem;
+  flex-grow: 2;
+  padding-left: 100px;
+  color: #DADDFC;
+  
+}
+
+.navbar-container li {
+
+}
+
+.navbar-container ul {
+    color: #DADDFC;
+    font-size: 1.5rem;
+  flex-grow: 3;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  
+}
+
