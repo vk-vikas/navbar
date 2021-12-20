@@ -1,0 +1,32 @@
+.parts {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    justify-content: space-around;
+     background-color: #FFE2E2;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    padding: 0 40px;
+
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    
+    
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 50%;
+}
